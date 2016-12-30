@@ -1,0 +1,15 @@
+Box {
+    display: flex;
+
+    &[vertical-align="center"] {
+        align-items: center; 
+    }
+
+    &[vertical-align="bottom"] {
+        align-items: flex-end; 
+    }
+
+    &[vertical-align="top"] {
+        align-items: flex-start; 
+    }
+}
