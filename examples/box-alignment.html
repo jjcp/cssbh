@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../dist/main.css">
+        <style>
+            body > Box {
+                margin-top: 80%;
+                padding: 20px;
+                border: 1px dashed gray;
+                width: 400px;
+            }
+
+            body > Box > div {
+                border: 2px dashed red;
+                display: inline-block; 
+                width: 100px;
+            }
+
+            .big{
+                height: 60px;
+            }
+
+            .small {
+                height: 40px; 
+            }
+
+            .huge {
+                height: 90px; 
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <Box vertical-align="bottom">
+            <div class="big">High element</div>
+            <div class="small">Short element</div>
+            <div class="huge">Highest element</div>
+        </div>
+    </body>
+</html>
